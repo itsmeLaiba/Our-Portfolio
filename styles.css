@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.member {
+  margin-bottom: 20px;
+}
+
+.portfolio-link {
+  color: #007bff; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.portfolio-link:hover {
+  color: #0056b3; /* Hover color */
+}
+
+.member1 {
+  color: #e74c3c; /* Red */
+}
+
+.member1:hover {
+  color: #c0392b; /* Darker red */
+}
+
+.member2 {
+  color: #2ecc71; /* Green */
+}
+
+.member2:hover {
+  color: #27ae60; /* Darker green */
+}
+
+.member3 {
+  color: #f1c40f; /* Yellow */
+}
+
+.member3:hover {
+  color: #f39c12; /* Darker yellow */
+}
+
+footer {
+  background-color: #333;
+  color: #f3efef;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
